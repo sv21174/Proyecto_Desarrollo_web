@@ -1,3 +1,5 @@
+
+// - Modelo de usuario
 const mongoose = require('mongoose');
 
 const UserSchema = new mongoose.Schema({

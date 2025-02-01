@@ -1,8 +1,7 @@
-
-
+// - Rutas de usuarios
 const express = require('express');
-const Router = express.Router();
-const User = require('../Models/user');
+const router = express.Router();
+const User = require('../models/User');
 
 router.post('/register', async (req, res) => {
     try {
